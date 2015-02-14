@@ -1,0 +1,111 @@
+No.     Time           Source                Destination           Protocol Length Info
+     22 51.773454000   192.168.169.53        202.141.80.32         HTTP     372    GET /~sukumar/cs349/HTTP-wireshark-file2.html HTTP/1.1 
+
+Frame 22: 372 bytes on wire (2976 bits), 372 bytes captured (2976 bits) on interface 0
+Ethernet II, Src: HonHaiPr_0a:b0:03 (94:39:e5:0a:b0:03), Dst: Universa_46:1b:10 (e0:2a:82:46:1b:10)
+Internet Protocol Version 4, Src: 192.168.169.53 (192.168.169.53), Dst: 202.141.80.32 (202.141.80.32)
+Transmission Control Protocol, Src Port: 64225 (64225), Dst Port: http (80), Seq: 1, Ack: 1, Len: 318
+Hypertext Transfer Protocol
+    GET /~sukumar/cs349/HTTP-wireshark-file2.html HTTP/1.1\r\n
+        [Expert Info (Chat/Sequence): GET /~sukumar/cs349/HTTP-wireshark-file2.html HTTP/1.1\r\n]
+            [Message: GET /~sukumar/cs349/HTTP-wireshark-file2.html HTTP/1.1\r\n]
+            [Severity level: Chat]
+            [Group: Sequence]
+        Request Method: GET
+        Request URI: /~sukumar/cs349/HTTP-wireshark-file2.html
+        Request Version: HTTP/1.1
+    Host: 202.141.80.32\r\n
+    User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:5.0) Gecko/20100101 Firefox/5.0\r\n
+    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\n
+    Accept-Language: en-us,en;q=0.5\r\n
+    Accept-Encoding: gzip, deflate\r\n
+    Connection: keep-alive\r\n
+    \r\n
+    [Full request URI: http://202.141.80.32/~sukumar/cs349/HTTP-wireshark-file2.html]
+    [HTTP request 1/1]
+    [Response in frame: 24]
+
+No.     Time           Source                Destination           Protocol Length Info
+     24 51.775525000   202.141.80.32         192.168.169.53        HTTP     733    HTTP/1.1 200 OK  (text/html)
+
+Frame 24: 733 bytes on wire (5864 bits), 733 bytes captured (5864 bits) on interface 0
+Ethernet II, Src: Universa_46:1b:10 (e0:2a:82:46:1b:10), Dst: HonHaiPr_0a:b0:03 (94:39:e5:0a:b0:03)
+Internet Protocol Version 4, Src: 202.141.80.32 (202.141.80.32), Dst: 192.168.169.53 (192.168.169.53)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 64225 (64225), Seq: 1, Ack: 319, Len: 679
+Hypertext Transfer Protocol
+    HTTP/1.1 200 OK\r\n
+        [Expert Info (Chat/Sequence): HTTP/1.1 200 OK\r\n]
+            [Message: HTTP/1.1 200 OK\r\n]
+            [Severity level: Chat]
+            [Group: Sequence]
+        Request Version: HTTP/1.1
+        Status Code: 200
+        Response Phrase: OK
+    Date: Sat, 29 Mar 2014 13:41:21 GMT\r\n
+    Server: Apache/2.2.15 (Red Hat)\r\n
+    Last-Modified: Fri, 14 Mar 2014 08:57:23 GMT\r\n
+    ETag: "68161d-198-4f48d4220865c"\r\n
+    Accept-Ranges: bytes\r\n
+    Content-Length: 408\r\n
+    Connection: close\r\n
+    Content-Type: text/html; charset=UTF-8\r\n
+    \r\n
+    [HTTP response 1/1]
+    [Time since request: 0.002071000 seconds]
+    [Request in frame: 22]
+Line-based text data: text/html
+
+No.     Time           Source                Destination           Protocol Length Info
+     53 67.813142000   192.168.169.53        202.141.80.32         HTTP     491    GET /~sukumar/cs349/HTTP-wireshark-file2.html HTTP/1.1 
+
+Frame 53: 491 bytes on wire (3928 bits), 491 bytes captured (3928 bits) on interface 0
+Ethernet II, Src: HonHaiPr_0a:b0:03 (94:39:e5:0a:b0:03), Dst: Universa_46:1b:10 (e0:2a:82:46:1b:10)
+Internet Protocol Version 4, Src: 192.168.169.53 (192.168.169.53), Dst: 202.141.80.32 (202.141.80.32)
+Transmission Control Protocol, Src Port: 64232 (64232), Dst Port: http (80), Seq: 1, Ack: 1, Len: 437
+Hypertext Transfer Protocol
+    GET /~sukumar/cs349/HTTP-wireshark-file2.html HTTP/1.1\r\n
+        [Expert Info (Chat/Sequence): GET /~sukumar/cs349/HTTP-wireshark-file2.html HTTP/1.1\r\n]
+            [Message: GET /~sukumar/cs349/HTTP-wireshark-file2.html HTTP/1.1\r\n]
+            [Severity level: Chat]
+            [Group: Sequence]
+        Request Method: GET
+        Request URI: /~sukumar/cs349/HTTP-wireshark-file2.html
+        Request Version: HTTP/1.1
+    Host: 202.141.80.32\r\n
+    User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:5.0) Gecko/20100101 Firefox/5.0\r\n
+    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\n
+    Accept-Language: en-us,en;q=0.5\r\n
+    Accept-Encoding: gzip, deflate\r\n
+    Connection: keep-alive\r\n
+    If-Modified-Since: Fri, 14 Mar 2014 08:57:23 GMT\r\n
+    If-None-Match: "68161d-198-4f48d4220865c"\r\n
+    Cache-Control: max-age=0\r\n
+    \r\n
+    [Full request URI: http://202.141.80.32/~sukumar/cs349/HTTP-wireshark-file2.html]
+    [HTTP request 1/1]
+    [Response in frame: 55]
+
+No.     Time           Source                Destination           Protocol Length Info
+     55 67.821035000   202.141.80.32         192.168.169.53        HTTP     206    HTTP/1.1 304 Not Modified 
+
+Frame 55: 206 bytes on wire (1648 bits), 206 bytes captured (1648 bits) on interface 0
+Ethernet II, Src: Universa_46:1b:10 (e0:2a:82:46:1b:10), Dst: HonHaiPr_0a:b0:03 (94:39:e5:0a:b0:03)
+Internet Protocol Version 4, Src: 202.141.80.32 (202.141.80.32), Dst: 192.168.169.53 (192.168.169.53)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 64232 (64232), Seq: 1, Ack: 438, Len: 152
+Hypertext Transfer Protocol
+    HTTP/1.1 304 Not Modified\r\n
+        [Expert Info (Chat/Sequence): HTTP/1.1 304 Not Modified\r\n]
+            [Message: HTTP/1.1 304 Not Modified\r\n]
+            [Severity level: Chat]
+            [Group: Sequence]
+        Request Version: HTTP/1.1
+        Status Code: 304
+        Response Phrase: Not Modified
+    Date: Sat, 29 Mar 2014 13:41:38 GMT\r\n
+    Server: Apache/2.2.15 (Red Hat)\r\n
+    Connection: close\r\n
+    ETag: "68161d-198-4f48d4220865c"\r\n
+    \r\n
+    [HTTP response 1/1]
+    [Time since request: 0.007893000 seconds]
+    [Request in frame: 53]

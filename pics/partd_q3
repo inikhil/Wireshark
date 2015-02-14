@@ -1,0 +1,29 @@
+No.     Time           Source                Destination           Protocol Length Info
+      2 0.025046000    202.141.80.32         192.168.169.53        TCP      66     http > 64688 [SYN, ACK] Seq=0 Ack=1 Win=14600 Len=0 MSS=1460 SACK_PERM=1 WS=128
+
+Frame 2: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: Universa_46:1b:10 (e0:2a:82:46:1b:10), Dst: HonHaiPr_0a:b0:03 (94:39:e5:0a:b0:03)
+Internet Protocol Version 4, Src: 202.141.80.32 (202.141.80.32), Dst: 192.168.169.53 (192.168.169.53)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 64688 (64688), Seq: 0, Ack: 1, Len: 0
+    Source port: http (80)
+    Destination port: 64688 (64688)
+    [Stream index: 0]
+    Sequence number: 0    (relative sequence number)
+    Acknowledgment number: 1    (relative ack number)
+    Header length: 32 bytes
+    Flags: 0x012 (SYN, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 0... = Push: Not set
+        .... .... .0.. = Reset: Not set
+        .... .... ..1. = Syn: Set
+        .... .... ...0 = Fin: Not set
+    Window size value: 14600
+    [Calculated window size: 14600]
+    Checksum: 0xec38 [validation disabled]
+    Options: (12 bytes), Maximum segment size, No-Operation (NOP), No-Operation (NOP), SACK permitted, No-Operation (NOP), Window scale
+    [SEQ/ACK analysis]
